@@ -1,0 +1,1 @@
+define("js/SetHTMLFontSize/SetHtmlFontSize",function(){"use strict";!function(){function n(){var n=document.documentElement.clientWidth,e=n/18.75;12>e?e=12:e>30&&(e=30),document.documentElement.style.fontSize=e+"px"}window.onresize=n,window.onload=n}()});

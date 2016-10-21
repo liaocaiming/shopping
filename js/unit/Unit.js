@@ -1,0 +1,1 @@
+define("js/unit/Unit",function(t,e,n){"use strict";var s={tpl:function(t){return document.getElementById(t).innerHTML},ajax:function(t,e){var n=new XMLHttpRequest;n.onreadystatechange=function(){if(4==n.readyState&&(n.status>=200||304==n.status)){var t=JSON.parse(n.responseText);e&&e(t)}},n.open("GET",t,!0),n.send(null)}};n.exports=s});

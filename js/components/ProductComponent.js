@@ -1,0 +1,1 @@
+define("js/components/ProductComponent",function(t,o,n){"use strict";var e=t("js/unit/Unit"),c=Vue.extend({template:e.tpl("tpl-product"),data:function(){return{product:[]}},created:function(){var t=this;this.$dispatch("show-search",!1),e.ajax("data/product.json",function(o){o&&0==o.errno&&t.$set("product",o.data)})},methods:{goBack:function(){history.go(-1)}}});n.exports=c});

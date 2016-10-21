@@ -1,0 +1,1 @@
+define("js/components/SearchComponent",function(e,t,a){"use strict";var n=e("js/unit/Unit"),u=Vue.extend({template:n.tpl("tpl-search"),data:function(){return{types:[{value:"旅游"},{value:"美食"},{value:"火锅"},{value:"自助餐"},{value:"蛋糕"},{value:"体验"},{value:"ktv"},{value:"游泳"}]}},created:function(){},methods:{cancelSearch:function(){location.hash="#/home/"}}});a.exports=u});
